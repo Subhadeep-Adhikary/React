@@ -15,7 +15,6 @@ function Card({ obj ,btnText}) {
       Price: {price}
     </p>
   </div>
-
   <button className="bg-white text-black text-sm w-32 h-8 p-1 m-4 border border-black rounded">
     Buy Now
   </button>

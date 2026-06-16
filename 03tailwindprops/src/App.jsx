@@ -16,8 +16,8 @@ function App() {
   let newar=[1,2,3,4,5]
   return (
     <>
-    <h1 className='bg-green-400 text-black p-4 rounded-xl'>My chemicals</h1>
-    <div className="text-center">
+    <h1 classNameName='bg-green-400 text-black p-4 rounded-xl'>My chemicals</h1>
+    <div classNameName="text-center">
     <Card obj={myobjs[0]} btnText="Buy now"/>
     <Card obj={myobjs[1]} btnText="Buy now"/>
     <Card obj={myobjs[2]} btnText="Buy now"/>

@@ -1,5 +1,11 @@
+import Mine from "./mine";
+
 function App() {
-  return <h1>Hello react</h1>;
+  return (
+    <>
+    <Mine/>
+    </>
+  );
 }
 
 export default App;

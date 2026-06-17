@@ -20,7 +20,7 @@ function App() {
       if(numberallowed) str+="1234567890"
       if(charallowed)str+="!@#$%^&*(){}[]:;,.<>/?"
 
-      for (let index = 0; index <= length; index++) {
+      for (let index = 0; index < length; index++) {
         let char=Math.floor(Math.random()*str.length+1)
         pass+=str.charAt(char)
         
@@ -30,6 +30,8 @@ function App() {
     } ,[length,numberallowed,charallowed,setpassword])
 
     const Copytoclipboard=useCallback(()=>{
+      passwordref.current?.select();
+      passwordref.current?.setSelectionRange(0,10);
       window.navigator.clipboard.writeText(password)
     },[password])
     useEffect(()=>{pasgen()},[length,numberallowed,charallowed,pasgen])

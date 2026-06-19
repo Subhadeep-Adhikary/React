@@ -11,7 +11,6 @@ function App() {
   return (
    <>
  <div className="min-h-screen bg-gray-900 text-gray-100 flex flex-col">
-    {/* Navbar */}
     <header className="fixed top-0 left-0 w-full h-16 bg-gray-800/90 backdrop-blur-md flex items-center justify-center px-6 shadow-lg z-50 border-b border-gray-700">
       <nav className="flex items-center justify-center space-x-3 overflow-x-auto max-w-full py-1 no-scrollbar">
         <A onClick={() => setbcolor("Yellow")} color="Yellow" />
